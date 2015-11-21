@@ -4,7 +4,7 @@
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 /// AmCharts object (it's not a class) is create automatically when amcharts.js or amstock.js file is included in a web page.
-declare module AmCharts {
+declare module 'AmCharts' {
 
     /** Set it to true if you have base href set for your page. This will fix rendering problems in Firefox caused by base href. */
     var baseHref: boolean;
